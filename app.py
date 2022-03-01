@@ -2,6 +2,11 @@
 # https://projects.raspberrypi.org/en/projects/python-web-server-with-flask
 # https://flask.palletsprojects.com/en/2.0.x/patterns/fileuploads/
 
+#NOTES
+# This file is to test uploading and downloading mp3 files.
+# You need to first run the file in the terminal: python3 app.py
+# and then type http://127.0.0.1:5000 into your web browser for it to work.
+
 import os
 from flask import Flask, render_template, flash, request, redirect, url_for, send_from_directory
 from werkzeug.utils import secure_filename
