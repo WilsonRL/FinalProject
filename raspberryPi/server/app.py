@@ -1,3 +1,11 @@
+# REFERENCES
+# [1] https://projects.raspberrypi.org/en/projects/python-web-server-with-flask/2
+# [2] https://www.geeksforgeeks.org/retrieving-html-from-data-using-flask/
+# [3] https://www.codegrepper.com/code-examples/python/input+box+for+text+in+flask
+# [4] https://www.w3schools.com/python/python_file_write.asp
+# [5] https://www.w3schools.com/python/python_file_open.asp
+# [6] https://www.geeksforgeeks.org/convert-text-speech-python/
+
 # Import libraries
 import os
 from flask import Flask, render_template, flash, request, redirect, url_for, send_from_directory
