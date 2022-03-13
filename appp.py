@@ -1,3 +1,6 @@
+# REFERENCE
+# [1] https://blog.ruanbekker.com/blog/2017/12/14/graphing-pretty-charts-with-python-flask-and-chartjs/
+
 from flask import Flask, Markup, render_template
 
 app = Flask(__name__)
