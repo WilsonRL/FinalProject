@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.header {
+	background-color: hsla(170,52%,52%,1.00);
+	padding: 20px;
+	text-align: center;
+	font-size: 45px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: hsla(0,0%,0%,1.00);
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: hsla(0,0%,100%,1.00);
+	text-align: center;
+	font-size: 20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: hsla(170,52%,52%,1.00);
+	color: hsla(0,0%,0%,1.00);
+}
+
+p1 {
+	font-size: 45px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+p2 {
+	color: hsla(170,52%,52%,1.00);
+	font-size: 40px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";		
+}
+p3 {
+	font-size: 30px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";		
+}
+
+p4 {
+	color: hsla(0,0%,0%,1.00);
+	font-size: 15px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";		
+}
+
+h1 {
+	color: hsla(170,52%,52%,1.00);
+	font-size: 20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";		
+}
+
+.about {
+	padding: 30px;
+	text-align: justify;
+	color: hsla(170,52%,52%,1.00);
+	font-size: 15px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.references {
+	overflow: hidden;
+}
+
+.references a{
+	float: left;
+	text-align: left;
+	color: hsla(0,0%,0%,1.00);
+	font-size: 15px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	padding: 0px 0px;
+	text-decoration: none;	
+}
+
+img {
+	padding: 0px 50px 0px 5px;
+}
