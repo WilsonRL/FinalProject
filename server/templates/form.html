@@ -1,0 +1,57 @@
+<!doctype html>
+<! REFERENCES
+[1] https://www.codegrepper.com/code-examples/python/input+box+for+text+in+flask
+[2] https://www.w3schools.com/TAgs/default.asp
+[3] https://www.geeksforgeeks.org/retrieving-html-from-data-using-flask/
+[4] https://projects.raspberrypi.org/en/projects/python-web-server-with-flask/7
+[5] https://www.w3schools.com/css/css_website_layout.asp
+[6] https://www.w3schools.com/css/css3_multiple_columns.asp
+>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Set Buttons</title>
+<link rel="stylesheet" href="/static/formStyle.css" />
+</head>
+<body>
+
+<div class = "header">
+	<p1>enter words to setup board</p1>	
+</div>
+
+<div class = "topnav">
+	<a href="main">main</a>
+	<a href="graph">graphs</a>
+</div>
+	
+<div class = "column">
+<form method = "POST">
+
+	<div class = "side">
+	<label for = "button0">  Button 00: </label><br><input type = "text" name = "button0" placeholder = "enter word for button 0"><br>
+    <label for = "button1">  Button 01: </label><br><input type = "text" name = "button1" placeholder = "enter word for button 1"><br>
+	<label for = "button2">  Button 02: </label><br><input type = "text" name = "button2" placeholder = "enter word for button 2"><br>
+    <label for = "button3">  Button 03: </label><br><input type = "text" name = "button3" placeholder = "enter word for button 3"><br>
+	<label for = "button4">  Button 04: </label><br><input type = "text" name = "button4" placeholder = "enter word for button 4"><br>
+    <label for = "button5">  Button 05: </label><br><input type = "text" name = "button5" placeholder = "enter word for button 5">
+	</div>
+	
+	<div class = "side">
+	<label for = "button6">  Button 06: </label><br><input type = "text" name = "button6" placeholder = "enter word for button 6"><br>
+    <label for = "button7">  Button 07: </label><br><input type = "text" name = "button7" placeholder = "enter word for button 7"><br>
+	<label for = "button8">  Button 08: </label><br><input type = "text" name = "button8" placeholder = "enter word for button 8"><br>
+    <label for = "button9">  Button 09: </label><br><input type = "text" name = "button9" placeholder = "enter word for button 9"><br>
+	<label for = "button10">  Button 10: </label><br><input type = "text" name = "button10" placeholder = "enter word for button 10"><br>
+    <label for = "button11">  Button 11: </label><br><input type = "text" name = "button11" placeholder = "enter word for button 11">
+	</div>
+		
+	<h1><center><input type = "submit" name = "setBoard"></center></h1>
+	
+</form>
+</div>
+
+
+
+</body>
+</html>

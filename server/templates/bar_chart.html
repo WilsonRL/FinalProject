@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>graphs</title>
+	<link rel="stylesheet" href="/static/graphStyle.css" />
+    <!--Chart.js JS CDN--> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script> 
+  </head>
+  <body>
+	  
+	<div class = "header">
+		<p1>Button Usage</p1>	
+	</div>
+
+	<div class = "topnav">
+		<a href="main">main</a>
+		<a href="setboard">board</a>
+	</div>	
+
+    <div class = "chart-container" style = "position: relative; height 40vh; width:80vw">
+		<canvas id="myChart"></canvas>
+    </div>
+
+    <script>
+      var ctx = document.getElementById('myChart').getContext('2d');
+      var myChart = new Chart(ctx, {
+          type: 'bar',
+		  options: {
+			  legend: {
+				  position: 'left'
+			  }
+		  },
+          data: {
+            labels: [
+                {% for item in labels %}
+                "{{item}}",
+                {% endfor %}
+                ],
+            datasets: [{ 
+                data: [
+                {% for item in values %}
+                "{{item}}",
+                {% endfor %}
+                    ],
+                label: "Total Button Presses",
+                borderColor: [
+      'rgba(230, 25, 75, 0.2)',
+      'rgba(245, 130, 48, 0.2)',
+      'rgba(255, 225, 25, 0.2)',
+      'rgba(210, 245, 60, 0.2)',
+      'rgba(60, 180, 75, 0.2)',
+      'rgba(0, 128, 128, 0.2)',
+      'rgba(70, 240, 240, 0.2)',
+      'rgba(0, 130, 200, 0.2)',
+      'rgba(0, 0, 128, 0.2)',
+      'rgba(145, 30, 180, 0.2)',
+      'rgba(240, 50, 230, 0.2)',
+      'rgba(128, 128, 128, 0.2)'],
+                backgroundColor: [
+      'rgba(230, 25, 75, 0.2)',
+      'rgba(245, 130, 48, 0.2)',
+      'rgba(255, 225, 25, 0.2)',
+      'rgba(210, 245, 60, 0.2)',
+      'rgba(60, 180, 75, 0.2)',
+      'rgba(0, 128, 128, 0.2)',
+      'rgba(70, 240, 240, 0.2)',
+      'rgba(0, 130, 200, 0.2)',
+      'rgba(0, 0, 128, 0.2)',
+      'rgba(145, 30, 180, 0.2)',
+      'rgba(240, 50, 230, 0.2)',
+      'rgba(128, 128, 128, 0.2)'],
+                borderWidth:2
+              }, 
+            ]
+          },
+        });
+    </script>
+	  
+  </body>
+</html>
