@@ -1,7 +1,6 @@
 # FinalProject
 
 Capacitive Touch Augmentative and Alternative Communication (AAC) for dogs
-https://github.com/WilsonRL/FinalProject.git
 Rebecca Wilson, McIntosh Webber
 
 **Project summary**
