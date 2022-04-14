@@ -175,4 +175,4 @@ while True:
             decoder.file = open(mp3files[i], "rb")
             audio.play(decoder)
             io.send_data(aac_feed["key"], words[i])
-    time.sleep(0.2)
+    time.sleep(0.1)
