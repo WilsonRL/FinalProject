@@ -17,5 +17,5 @@ We will incorporate GPIO into our project by connecting a 12-channel capacitive 
 The GUI will display a graphical representation of the number of the total times each words is pressed and the number of times each word is pressed per day. It also allows for user input of words to create the mp3 files and allow transfer to the AAC board.  
 
 ### References
-[1 hunger for words] (https://www.hungerforwords.com/our-story/)
-[2 they can talk] (https://how.theycantalk.org/c/home/our-approach-to-research)
+[1] https://www.hungerforwords.com/our-story/
+[2] https://how.theycantalk.org/c/home/our-approach-to-research
