@@ -3,7 +3,7 @@
 ## Capacitive Touch Augmentative and Alternative Communication (AAC) for dogs
 ### Rebecca Wilson, McIntosh Webber
 
-**Project summary**
+### Project summary
 In 2018, a speech-language pathologist taught her puppy to communicate by pressing buttons with prerecorded words including “outside,” “play” and “water.” Her dog currently uses over 45 different buttons in sequences of up to five words to communicate [1]. Many dog (and cat) owners have now taught their pets to communicate with recordable buttons and cognitive scientists are currently investigating the language capacity of non-human animals using recordable buttons along with video recordings of the animals using the buttons [2]. Our project aims to create a capacitive touch based augmentative and alternative communication (AAC) system for dogs and their owners that tracks the learner’s progress. 
 
 **Goals and objectives**
