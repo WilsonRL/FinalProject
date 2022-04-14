@@ -1,14 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* text at top of page */
 .header {
-	background-color: hsla(170,52%,52%,1.00);
+	background-color: hsla(348,100%,64%,1.00);
 	padding: 20px;
 	text-align: center;
 	font-size: 45px;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
 
+/* navigation bar */
 .topnav {
 	overflow: hidden;
 	background-color: hsla(0,0%,0%,1.00);
@@ -26,10 +28,14 @@
 }
 
 .topnav a:hover {
-	background-color: hsla(170,52%,52%,1.00);
+	background-color: hsla(348,100%,64%,1.00);
 	color: hsla(0,0%,0%,1.00);
 }
 
+/* uses flexbox to maintain graph center as window changes size */
 .chart-container {
 	padding: 10px 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
