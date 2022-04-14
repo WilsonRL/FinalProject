@@ -1,14 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* text a top of page */
 .header {
-	background-color: hsla(170,52%,52%,1.00);
+	background-color: hsla(348,100%,64%,1.00);
 	padding: 20px;
 	text-align: center;
 	font-size: 45px;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
 
+/* navigation bar */
 .topnav {
 	overflow: hidden;
 	background-color: hsla(0,0%,0%,1.00);
@@ -26,10 +28,11 @@
 }
 
 .topnav a:hover {
-	background-color: hsla(170,52%,52%,1.00);
+	background-color: hsla(348,100%,64%,1.00);
 	color: hsla(0,0%,0%,1.00);
 }
 
+/* columns for form */
 .column {
 	float: left;
 	padding: 10px 20px;
@@ -37,15 +40,19 @@
 	column-gap: 100px;
 }
 
-h1 {
-	column-span: all;
-}
-
+/* labels for form text entries */
 label {
 	font-size: 20px;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
 
+/* placeholder text */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: hsla(0,0%,100%,1.00);
+  opacity: 1; /* Firefox */
+}
+
+/* input text */
 input[type=text] {
 	width: 400px;
 	padding: 12px 20px;
@@ -53,19 +60,20 @@ input[type=text] {
 	box-sizing: border-box;
 	border: 2px solid  hsla(0,0%,0%,1.00);
 	border-radius: 4px;
-	background-color: hsla(170,52%,52%,1.00);
+	background-color: hsla(348,100%,64%,1.00);
 	color: hsla(0,0%,100%,1.00);
 	font-size: 20px;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: hsla(0,0%,100%,1.00);
-  opacity: 1; /* Firefox */
+/* submit button */
+h1 {
+	column-span: all;
 }
 
+/* submit button */
 input[type=submit] {
-	background-color:hsla(170,52%,52%,1.00);
+	background-color: hsla(348,100%,64%,1.00);
 	border: 2px solid hsla(0,0%,0%,1.00);
 	border-radius: 4px;
 	color: hsla(0,0%,100%,1.00);
