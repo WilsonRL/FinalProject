@@ -168,11 +168,13 @@ while True:
         myFile.close()
         time.sleep(0.1)
 
-
+    # check to see if a button is pressed
     for i in range(NUMBER_OF_BUTTONS):
+        # when a button is pressed
         if mpr121[i].value:
-            print("{}".format(words[i]))
+            # play associated mp3 file
             decoder.file = open(mp3files[i], "rb")
             audio.play(decoder)
+            # send associated word to adafruit IO
             io.send_data(aac_feed["key"], words[i])
     time.sleep(0.1)
