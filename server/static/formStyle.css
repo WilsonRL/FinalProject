@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* text a top of page */
+.header {
+	background-color: hsla(348,100%,64%,1.00);
+	padding: 20px;
+	text-align: center;
+	font-size: 45px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+/* navigation bar */
+.topnav {
+	overflow: hidden;
+	background-color: hsla(0,0%,0%,1.00);
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: hsla(0,0%,100%,1.00);
+	text-align: center;
+	font-size: 20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: hsla(348,100%,64%,1.00);
+	color: hsla(0,0%,0%,1.00);
+}
+
+/* columns for form */
+.column {
+	float: left;
+	padding: 10px 20px;
+	columns: 2;
+	column-gap: 100px;
+}
+
+/* labels for form text entries */
+label {
+	font-size: 20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+/* placeholder text */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: hsla(0,0%,100%,1.00);
+  opacity: 1; /* Firefox */
+}
+
+/* input text */
+input[type=text] {
+	width: 400px;
+	padding: 12px 20px;
+	margin: 10px;
+	box-sizing: border-box;
+	border: 2px solid  hsla(0,0%,0%,1.00);
+	border-radius: 4px;
+	background-color: hsla(348,100%,64%,1.00);
+	color: hsla(0,0%,100%,1.00);
+	font-size: 20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+/* submit button */
+h1 {
+	column-span: all;
+}
+
+/* submit button */
+input[type=submit] {
+	background-color: hsla(348,100%,64%,1.00);
+	border: 2px solid hsla(0,0%,0%,1.00);
+	border-radius: 4px;
+	color: hsla(0,0%,100%,1.00);
+	padding: 10px 100px;
+	text-align: center;
+	font-size: 25px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	margin: 2px;
+	cursor: pointer;
+}
+
+
